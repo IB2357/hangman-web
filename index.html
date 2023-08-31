@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>hangman</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="person-drawing">
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 221.1 141.73" style="enable-background:new 0 0 221.1 141.73;" xml:space="preserve">
+
+                <g id="stage">
+                    <rect x="72.59" y="23.35" class="st0" width="63.92" height="3.87" />
+
+                    <rect x="30.81" y="69.01" transform="matrix(1.071937e-14 -1 1 1.071937e-14 3.5781 145.4675)"
+                        class="st0" width="87.44" height="3.87" />
+                    <rect x="67.09" y="112.73" class="st0" width="86.92" height="8.34" />
+
+                    <rect x="70.4" y="34.65" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -0.4579 71.6028)"
+                        class="st0" width="31.61" height="3.4" />
+
+                    <rect x="123.19" y="30.37" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 157.673 -95.9645)"
+                        class="st1" width="7.25" height="0.97" />
+                </g>
+                <g id="man">
+                    <circle id="head" class="st2" cx="126.82" cy="40.94" r="6.46" />
+                    <rect id="body" x="125.42" y="47.39" class="st2" width="2.8" height="18.87" />
+
+                    <rect id="right_x5F_arm" x="132.28" y="48.49"
+                        transform="matrix(0.866 -0.5 0.5 0.866 -10.6426 74.2738)" class="st2" width="2"
+                        height="17.02" />
+
+                    <rect id="left_x5F_arm" x="119.36" y="48.49"
+                        transform="matrix(0.866 0.5 -0.5 0.866 44.6236 -52.545)" class="st2" width="2" height="17.02" />
+
+                    <rect id="right_x5F_leg" x="129.98" y="64.43"
+                        transform="matrix(0.9848 -0.1736 0.1736 0.9848 -10.9777 23.949)" class="st2" width="2.8"
+                        height="20.57" />
+
+                    <rect id="left_x5F_leg" x="120.86" y="64.43"
+                        transform="matrix(0.9848 0.1736 -0.1736 0.9848 14.831 -20.0946)" class="st2" width="2.8"
+                        height="20.57" />
+                </g>
+            </svg>
+
+        </div>
+        <div class="text-section">
+
+            <div class="text">
+                <h1>Hangman Game</h1>
+                <p>This is a sample game, You just have to guess the word to see the hanging man</p>
+                <h2 class="word"></h2>
+            </div>
+            <div class="buttons"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
